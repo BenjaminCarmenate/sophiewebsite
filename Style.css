@@ -53,6 +53,7 @@ body{
     justify-content: center; 
     text-align: center;
 }
+
 #heading{
     text-align: center;
     justify-content: center;
@@ -61,6 +62,7 @@ body{
     text-shadow: .7vw .7vw #57251c;
     font-family: Lobster;
 }
+
 #paragraph{
     text-align: center;
     justify-content: center;
@@ -80,6 +82,7 @@ body{
     font-family: Lobster;
     display: flex;
 }
+
 #links:hover{
     color:#637269;
     text-shadow:.2vw .2vw #1d221f;
