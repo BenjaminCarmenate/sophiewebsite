@@ -43,10 +43,10 @@ body{
     animation: pop-in 1s 1s;
 }
 #title-box{
-    height: 50px;
+    height: 10vw;
 }
 #header{ 
-    line-height: 25px;
+    line-height: 15vw;
     border-radius: 4px;
     padding: 10px;
     background-image: linear-gradient(#FEC89A,#FFE5D9);
@@ -56,36 +56,36 @@ body{
     text-align: center;
     justify-content: center;
     color: #FC654A; 
-    font-size: 100px;
-    text-shadow: 3px 3px #57251c;
+    font-size: 15vw;
+    text-shadow: .7vw .7vw #57251c;
     font-family: Lobster;
 }
 #paragraph{
     text-align: center;
     justify-content: center;
     color: #3f4b44; 
-    font-size: 25px;
+    font-size: 5vw;
     font-family:'Space Mono', monospace;
 }
 
 #links{
     color:#A1BAAB;
-    text-shadow: 3px 3px rgb(57, 68, 59);
+    text-shadow: .7vw .7vw rgb(57, 68, 59);
     justify-content: center; 
     text-align: center;
-    padding: 10px;
-    font-size: 50px;
+    padding: .1vw;
+    font-size: 7vw;
     text-decoration: none;
     font-family: Lobster;
 }
 #links:hover{
     color:#637269;
-    text-shadow:1px 1px #1d221f;
+    text-shadow:.2vw .2vw #1d221f;
 }
 .Center{
 
-    box-shadow: 10px 10px rgb(175, 175, 175);
-    width: 30%;
+    box-shadow: 1vw 1vw rgb(175, 175, 175);
+    width: 60vw;
     height: auto;
     display: flex;
     margin-left: auto;
