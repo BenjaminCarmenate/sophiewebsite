@@ -56,7 +56,7 @@ body{
     text-align: center;
     justify-content: center;
     color: #FC654A; 
-    font-size: 15vw;
+    font-size: 10vw;
     text-shadow: .7vw .7vw #57251c;
     font-family: Lobster;
 }
@@ -64,7 +64,7 @@ body{
     text-align: center;
     justify-content: center;
     color: #3f4b44; 
-    font-size: 5vw;
+    font-size: 2vw;
     font-family:'Space Mono', monospace;
 }
 
@@ -74,7 +74,7 @@ body{
     justify-content: center; 
     text-align: center;
     padding: .1vw;
-    font-size: 7vw;
+    font-size: 5vw;
     text-decoration: none;
     font-family: Lobster;
 }
@@ -85,7 +85,7 @@ body{
 .Center{
 
     box-shadow: 1vw 1vw rgb(175, 175, 175);
-    width: 60vw;
+    width: 40vw;
     height: auto;
     display: flex;
     margin-left: auto;
