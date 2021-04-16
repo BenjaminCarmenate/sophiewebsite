@@ -2,13 +2,14 @@
 
 @keyframes pop-in {
     0%{font-size: 100%;}
-    50%{font-size: 25%;}
+    50%{font-size: 25%;color:#A1BAAB; text-shadow: #3f4b44;}
     100%{font-size: 100%;}
 }
 body{
     background-color:#FFE5D9 ;
     margin:0;
 }
+
 #Let1{
     animation: pop-in 1s;
 }
@@ -46,8 +47,7 @@ body{
     height: 5vw;
 }
 #header{ 
-    line-height: 15vw;
-    border-radius: 4px;
+    line-height: 10vw;
     padding: 1vw;
     background-image: linear-gradient(#FEC89A,#FFE5D9);
     justify-content: center; 
@@ -73,7 +73,8 @@ body{
     text-shadow: .4vw .2vw rgb(57, 68, 59);
     justify-content: center; 
     text-align: center;
-    padding: .1vw;
+    padding-top: .01vw;
+    padding-bottom: 0vw;
     font-size: 5vw;
     text-decoration: none;
     font-family: Lobster;
@@ -83,17 +84,20 @@ body{
     text-shadow:.2vw .2vw #1d221f;
 }
 hr.rounded{
-    border-top: .8vw solid #FC654A;
-    border-radius: .5vw;
+    border-top: .5vw solid #FC654A;
+    border-radius: .8vw;
 }
 .Center{
-
-    box-shadow: 1vw 1vw rgb(175, 175, 175);
-    width: 40vw;
+    box-shadow: .5vw .5vw #57251c;
+    width: 20vw;
+    border-radius: 50%;
+    border-color: transparent;
+    border-width: .1vw;
     height: auto;
     display: flex;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 3vw;
 }
 #feed{
     padding-top: 20px;
